@@ -4,6 +4,7 @@
   gap: var(--space-3);
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
+  margin: var(--space-4) 0;
 
   &::before,
   &::after {
