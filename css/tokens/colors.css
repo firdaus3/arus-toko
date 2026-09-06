@@ -25,10 +25,10 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
-  /* Warna semantik */
+  /* Semantic colors */
   --color-primary: var(--color-purple-600);
   --color-primary-hover: var(--color-purple-700);
-  --color-primary-active: var(--color-purple-800);
+  /* --color-primary-active: var(--color-purple-800); */
 
   --color-background: var(--color-white);
   --color-surface: var(--color-white);

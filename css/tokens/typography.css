@@ -1,7 +1,7 @@
 :root {
   --font-family: "Lufga", sans-serif;
 
-  /* Skala tipografi Minor Third (≈ 1.2), dibulatkan untuk kebutuhan UI */
+  /* Minor Third typographic scale (≈ 1.2), rounded for UI purposes. */
   --font-size-xs: 0.75rem; /* 12px */
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-md: 1rem; /* 16px — base */

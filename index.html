@@ -8,8 +8,60 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <p>test</p>
-    <a href="">Ini adalah link</a>
+    <div class="auth-layout">
+      <main>
+        <h1>Masuk ke Akun Anda</h1>
+        <p>Selamat Datang! Masuk untuk mengelola keuangan toko Anda</p>
+
+        <button class="btn btn--outline btn--full" type="button">
+          <img class="btn__icon" src="assets/icons/google-icon.svg" alt="" />
+          Masuk dengan Google
+        </button>
+        <button class="btn btn--outline btn--full" type="button">
+          <img class="btn__icon" src="assets/icons/facebook-icon.svg" alt="" />
+          Masuk dengan Facebook
+        </button>
+
+        <div class="divider">
+          <span>atau</span>
+        </div>
+
+        <form action="">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            autocomplete="current-password"
+            required
+          />
+
+          <input type="checkbox" id="remember" name="remember" />
+          <label for="remember">Ingat saya</label>
+
+          <a href="">Lupa Password?</a>
+
+          <button class="btn btn--primary btn--full" type="submit">
+            Masuk
+          </button>
+          <button class="btn btn--outline" type="button">Masuk</button>
+          <button class="btn btn--secondary" type="button">Masuk</button>
+        </form>
+
+        <p>Belum punya akun? <a href="">Daftar sekarang</a></p>
+      </main>
+      <aside></aside>
+    </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>

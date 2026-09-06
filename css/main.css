@@ -1,4 +1,4 @@
-/* Reset dan fondasi */
+/* Reset and foundation */
 @import url("./base/reset.css");
 @import url("./base/fonts.css");
 
@@ -11,3 +11,10 @@
 /* Style global */
 @import url("./base/base.css");
 @import url("./base/typography.css");
+
+/* Components */
+@import url("./components/button.css");
+@import url("./components/divider.css");
+
+/* Utilities */
+@import url("./utilities/layout.css");

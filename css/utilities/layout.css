@@ -1,0 +1,11 @@
+.u-flex {
+  display: flex;
+}
+
+.u-flex-1 {
+  flex: 1;
+}
+
+.u-gap-3 {
+  gap: var(--space-3);
+}
