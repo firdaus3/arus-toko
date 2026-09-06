@@ -6,6 +6,10 @@
   flex: 1;
 }
 
+.u-flex-between {
+  justify-content: space-between;
+}
+
 .u-gap-3 {
   gap: var(--space-3);
 }
