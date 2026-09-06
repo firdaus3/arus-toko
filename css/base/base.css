@@ -1,0 +1,13 @@
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+a {
+  color: var(--color-link);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}

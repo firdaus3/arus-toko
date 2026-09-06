@@ -1,0 +1,11 @@
+/* Reset dan fondasi */
+@import url("./base/reset.css");
+@import url("./base/fonts.css");
+
+/* Design tokens */
+@import url("./tokens/typography.css");
+@import url("./tokens/colors.css");
+
+/* Style global */
+@import url("./base/base.css");
+@import url("./base/typography.css");
