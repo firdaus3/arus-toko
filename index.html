@@ -10,8 +10,10 @@
   <body>
     <div class="auth-layout">
       <main>
-        <h1>Masuk ke Akun Anda</h1>
-        <p>Selamat Datang! Masuk untuk mengelola keuangan toko Anda</p>
+        <h1 class="u-text-center">Masuk ke Akun Anda</h1>
+        <p class="u-text-secondary u-text-center">
+          Selamat Datang! Masuk untuk mengelola keuangan toko Anda
+        </p>
 
         <button class="btn btn--outline btn--full" type="button">
           <img class="btn__icon" src="assets/icons/google-icon.svg" alt="" />
@@ -49,8 +51,8 @@
             required
           />
 
-          <div class="u-flex u-between">
-            <div>
+          <div class="u-flex u-justify-center u-gap-8">
+            <div class="checkbox">
               <input type="checkbox" id="remember" name="remember" />
               <label for="remember">Ingat saya</label>
             </div>
@@ -60,11 +62,12 @@
           <button class="btn btn--primary btn--full" type="submit">
             Masuk
           </button>
-          <button class="btn btn--outline" type="button">Masuk</button>
-          <button class="btn btn--secondary" type="button">Masuk</button>
         </form>
 
-        <p>Belum punya akun? <a href="">Daftar sekarang</a></p>
+        <p class="u-text-center">
+          Belum punya akun?
+          <a href="">Daftar sekarang</a>
+        </p>
       </main>
       <aside></aside>
     </div>

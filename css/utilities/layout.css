@@ -13,3 +13,23 @@
 .u-gap-3 {
   gap: var(--space-3);
 }
+
+.u-gap-8 {
+  gap: var(--space-8);
+}
+
+.u-justify-center {
+  justify-content: center;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-secondary {
+  color: var(--color-text-secondary);
+}
