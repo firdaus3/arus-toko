@@ -14,3 +14,7 @@ h6 {
   font-weight: 500;
   line-height: var(--line-height-tight);
 }
+
+a {
+  text-decoration: none;
+}

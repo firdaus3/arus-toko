@@ -17,6 +17,11 @@
 @import url("./components/divider.css");
 @import url("./components/input.css");
 @import url("./components/heading.css");
+@import url("./components/form-field.css");
+@import url("./components/auth.css");
 
 /* Utilities */
 @import url("./utilities/layout.css");
+
+/* Layout */
+@import url("./layout/auth.css");

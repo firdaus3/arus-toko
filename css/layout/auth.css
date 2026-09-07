@@ -1,0 +1,28 @@
+.auth-layout__main {
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  padding: var(--space-6);
+}
+
+.auth-layout__content {
+  width: 100%;
+  max-width: 28rem;
+  margin-inline: auto;
+}
+
+.auth-layout__aside {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+  .auth-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100svh;
+  }
+
+  .auth-layout__aside {
+    display: block;
+  }
+}
