@@ -12,14 +12,14 @@
       <main class="auth-layout__main">
         <div class="auth-layout__content">
           <header class="heading heading--center">
-            <h1 class="heading__title">Masuk ke Akun Anda</h1>
+            <h1 class="heading__title">Daftar untuk Akun <Baru></Baru></h1>
             <p class="heading__description">
-              Selamat Datang! Masuk untuk mengelola keuangan toko Anda
+              Selamat Datang! Daftar untuk mengelola keuangan toko Anda
             </p>
           </header>
           <button class="btn btn--outline btn--full" type="button">
             <img class="btn__icon" src="assets/icons/google-icon.svg" alt="" />
-            Masuk dengan Google
+            Daftar dengan Google
           </button>
           <button class="btn btn--outline btn--full" type="button">
             <img
@@ -27,12 +27,24 @@
               src="assets/icons/facebook-icon.svg"
               alt=""
             />
-            Masuk dengan Facebook
+            Daftar dengan Facebook
           </button>
           <div class="divider">
             <span>atau</span>
           </div>
           <form class="auth-form" action="">
+            <div class="form-field">
+              <label for="username">Username</label>
+              <input
+                class="input"
+                type="text"
+                id="username"
+                name="username"
+                autocomplete="username"
+                placeholder="Masukkan username Anda"
+                required
+              />
+            </div>
             <div class="form-field">
               <label for="email">Email</label>
               <input
@@ -46,40 +58,44 @@
               />
             </div>
             <div class="form-field">
-              <label for="password">Password</label>
+              <label for="password">Buat Password Baru</label>
               <input
                 class="input"
                 type="password"
                 id="password"
                 name="password"
                 autocomplete="current-password"
-                placeholder="Masukkan password Anda"
+                placeholder="Minimal 8 karakter"
                 required
               />
             </div>
-            <div class="u-flex u-justify-center u-gap-8">
-              <div class="checkbox">
-                <input type="checkbox" id="remember" name="remember" />
-                <label for="remember">Ingat saya</label>
-              </div>
-              <a href="">Lupa Password?</a>
+            <div class="form-field">
+              <label for="confirm-password">Konfirmasi Password</label>
+              <input
+                class="input"
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                autocomplete="new-password"
+                placeholder="Ulangi password"
+                required
+              />
             </div>
             <button
               class="btn btn--primary btn--full auth-form__submit"
               type="submit"
             >
-              Masuk
+              Daftar
             </button>
           </form>
           <p class="u-text-secondary u-text-center">
-            Belum punya akun?
-            <a href="signup.html">Daftar sekarang</a>
+            Sudah punya akun?
+            <a href="index.html">Masuk sekarang</a>
           </p>
         </div>
       </main>
+
       <aside class="auth-layout__aside"></aside>
     </div>
-
-    <script src="js/main.js"></script>
   </body>
 </html>

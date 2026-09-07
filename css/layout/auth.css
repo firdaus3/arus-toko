@@ -2,7 +2,7 @@
   min-height: 100svh;
   display: grid;
   align-items: center;
-  padding: var(--space-6);
+  padding: var(--space-4);
 }
 
 .auth-layout__content {
@@ -24,5 +24,6 @@
 
   .auth-layout__aside {
     display: block;
+    background-color: var(--color-purple-800);
   }
 }
