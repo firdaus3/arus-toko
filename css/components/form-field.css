@@ -4,5 +4,5 @@
 }
 
 .form-field + .form-field {
-  margin: var(--space-4) 0;z
+  margin: var(--space-4) 0;
 }
