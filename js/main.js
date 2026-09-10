@@ -1,0 +1,1 @@
+console.log("JavaScript Arus Toko berhasil terhubung");
