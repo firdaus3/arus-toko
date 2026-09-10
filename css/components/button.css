@@ -6,7 +6,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* margin: var(--space-2) 0; */
   transition:
     background-color 0.3s ease,
     transform 0.1s ease;
@@ -57,6 +56,6 @@
   gap: var(--space-3);
 }
 
-.button-group .btn {
-  flex: 1;
+.button-group--vertical {
+  flex-direction: column;
 }
