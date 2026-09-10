@@ -1,3 +1,13 @@
 .auth-form__submit {
   margin-top: var(--space-6);
 }
+
+.auth-providers {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.auth-form {
+  display: grid;
+  gap: var(--space-4);
+}
