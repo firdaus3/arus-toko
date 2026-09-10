@@ -1,5 +1,6 @@
 .auth-form__submit {
   margin-top: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 
 .auth-form {
